@@ -5,7 +5,7 @@ import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
 
 const Mymsg =
-  "                                                        Muzammil's Number Guessing game                        ";
+  "                                                         Muzammil's Number Guessing game                        ";
 chalkAnimation.rainbow(Mymsg);
 setTimeout(() => {
   console.log(chalk.bgGreen("Guess a number between 1 to 10"));
